@@ -65,7 +65,7 @@ func main() {
 
 	var fromTemperature int
 	fmt.Scanf("%d", &fromTemperature)
-	for fromTemperature < 1 || fromTemperature > 6 {
+	for fromTemperature < 1 || fromTemperature > 3 {
 		fmt.Print("Choice is not available. Enter your choice: ")
 		fmt.Scanf("%d", &fromTemperature)
 	}
@@ -78,7 +78,7 @@ func main() {
 
 	var toTemperature int
 	fmt.Scanf("%d", &toTemperature)
-	for toTemperature < 1 || toTemperature > 6 {
+	for toTemperature < 1 || toTemperature > 3 {
 		fmt.Print("Choice is not available. Enter your choice: ")
 		fmt.Scanf("%d", &toTemperature)
 	}
