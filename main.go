@@ -10,7 +10,7 @@ func main() {
 // Returns:
 // - The temperature converted to Fahrenheit.
 func CelsiusToFahrenheit(temperatureCelsius float64) float64 {
-	temperatureFahrenheit := (9.0 / 5.0 * temperatureCelsius) + 32.0
+	temperatureFahrenheit := ((9.0 / 5.0) * temperatureCelsius) + 32.0
 	return temperatureFahrenheit
 }
 
