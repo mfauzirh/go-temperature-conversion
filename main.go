@@ -43,3 +43,23 @@ func FahrenheitToKelvin(temperatureFahrenheit float64) float64 {
 	temperatureKelvin := (temperatureFahrenheit + 459.67) * (5.0 / 9.0)
 	return temperatureKelvin
 }
+
+// Convert temperature from Kelvin to Celsius.
+// Parameters:
+// - temperatureKelvin: temperature in Kelvin.
+// Returns:
+// - the temperature converted to Celsius.
+func KelvinToCelsius(temperatureKelvin float64) float64 {
+	temperatureCelsius := temperatureKelvin - 273.15
+	return temperatureCelsius
+}
+
+// Convert temperature from Kelvin to Fahrenheit.
+// Parameters:
+// - temperatureKelvin: temperature in Kelvin.
+// Returns:
+// - the temperature converted to Fahrenheit.
+func KelvinToFahrenheit(temperatureKelvin float64) float64 {
+	temperatureFahrenheit := (temperatureKelvin * (9.0 / 5.0)) - 459.67
+	return temperatureFahrenheit
+}
